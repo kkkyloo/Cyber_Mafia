@@ -8650,3 +8650,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.07-16.53.54:783][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
 [2024.04.07-16.53.54:789][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
 [2024.04.07-16.53.54:848][258]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2024.04.07-16.54.03:844][368]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.04.07-16.54.03:844][368]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
