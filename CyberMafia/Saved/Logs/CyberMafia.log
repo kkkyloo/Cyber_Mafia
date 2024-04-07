@@ -6470,3 +6470,12 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.07-16.22.29:159][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
 [2024.04.07-16.22.29:165][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
 [2024.04.07-16.22.29:224][209]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2024.04.07-16.22.37:522][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.22.37:552][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.04.07-16.22.37:567][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.04.07-16.22.37:579][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.04.07-16.22.37:581][341]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04
+[2024.04.07-16.22.37:582][341]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/1IKKDYS7RULH8FRYRPPF046BE9692342364C8D2042A892B3735262.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset'
+[2024.04.07-16.22.37:591][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 5.97 sec)
+[2024.04.07-16.22.37:592][341]AssetCheck: New page: Asset Save: StaticMeshActor_32
+[2024.04.07-16.22.37:592][341]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_32
