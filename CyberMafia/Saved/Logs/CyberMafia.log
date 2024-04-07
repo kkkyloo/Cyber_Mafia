@@ -7971,3 +7971,682 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.07-16.46.10:957][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
 [2024.04.07-16.46.10:963][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
 [2024.04.07-16.46.11:023][451]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2024.04.07-16.47.07:001][520]LogViewport: Scene viewport resized to 1169x380, mode Windowed.
+[2024.04.07-16.47.07:009][520]LogViewport: Scene viewport resized to 1169x380, mode Windowed.
+[2024.04.07-16.47.07:036][520]LogViewport: Scene viewport resized to 1169x381, mode Windowed.
+[2024.04.07-16.47.07:069][520]LogViewport: Scene viewport resized to 2697x964, mode Windowed.
+[2024.04.07-16.47.07:141][521]LogViewport: Scene viewport resized to 3445x1380, mode Windowed.
+[2024.04.07-16.47.08:632][641]Cmd: SELECT NONE
+[2024.04.07-16.47.09:559][727]LogViewport: Scene viewport resized to 3117x1198, mode Windowed.
+[2024.04.07-16.47.09:571][728]LogViewport: Scene viewport resized to 2848x1048, mode Windowed.
+[2024.04.07-16.47.09:694][729]LogViewport: Scene viewport resized to 2349x770, mode Windowed.
+[2024.04.07-16.47.09:721][730]LogViewport: Scene viewport resized to 2345x768, mode Windowed.
+[2024.04.07-16.47.10:567][805]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.47.10:575][805]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.47.10:575][805]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.47.10:577][805]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 111 ms)
+[2024.04.07-16.47.10:577][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.47.10:577][805]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:47:10)
+[2024.04.07-16.47.10:577][805]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.47.10:581][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003882s)
+[2024.04.07-16.47.10:581][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003917s)
+[2024.04.07-16.47.10:599][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.07-16.47.10:603][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.47.10:603][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.47.10:603][805]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.47.10:603][805]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.47.10:603][805]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.47.10:603][805]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.47.10:605][805]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.47.10:606][805]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.47.10:606][805]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 129 ms)
+[2024.04.07-16.47.10:606][805]LogPlayLevel: PIE: World Init took: (0.002696s)
+[2024.04.07-16.47.10:606][805]LogAudio: Display: Creating Audio Device:                 Id: 84, Scope: Unique, Realtime: True
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.47.10:606][805]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.47.10:606][805]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.47.10:606][805]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.47.10:606][805]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.47.10:606][805]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.47.10:608][805]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.47.10:627][805]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.47.10:627][805]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.47.10:627][805]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.47.10:627][805]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.47.10:629][805]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=84
+[2024.04.07-16.47.10:629][805]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=84
+[2024.04.07-16.47.10:630][805]LogInit: FAudioDevice initialized with ID 84.
+[2024.04.07-16.47.10:630][805]LogAudio: Display: Audio Device (ID: 84) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.47.10:630][805]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=84
+[2024.04.07-16.47.10:630][805]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=84
+[2024.04.07-16.47.10:630][805]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 84
+[2024.04.07-16.47.10:633][805]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.47.10:635][805]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.47.10
+[2024.04.07-16.47.10:635][805]LogWorld: Bringing up level for play took: 0.001900
+[2024.04.07-16.47.10:636][805]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2024.04.07-16.47.10:641][805]PIE: Server logged in
+[2024.04.07-16.47.10:642][805]PIE: Play in editor total start time 0,067 seconds.
+[2024.04.07-16.47.10:961][833]Cmd: LevelEditor.ToggleImmersive
+[2024.04.07-16.47.10:969][833]LogViewport: Scene viewport resized to 2556x886, mode Windowed.
+[2024.04.07-16.47.10:983][834]LogViewport: Scene viewport resized to 2820x1032, mode Windowed.
+[2024.04.07-16.47.11:006][835]LogViewport: Scene viewport resized to 3094x1185, mode Windowed.
+[2024.04.07-16.47.11:025][836]LogViewport: Scene viewport resized to 3251x1272, mode Windowed.
+[2024.04.07-16.47.11:048][837]LogViewport: Scene viewport resized to 3372x1339, mode Windowed.
+[2024.04.07-16.47.11:090][838]LogViewport: Scene viewport resized to 3443x1379, mode Windowed.
+[2024.04.07-16.47.11:117][839]LogViewport: Scene viewport resized to 3445x1380, mode Windowed.
+[2024.04.07-16.47.36:766][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.47.36:766][893]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.47.36:766][893]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.47.36:766][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.47.36:766][893]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.47.36:773][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.47.36:777][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.47.36:790][893]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.07-16.47.36:790][893]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 84
+[2024.04.07-16.47.36:790][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2024.04.07-16.47.36:792][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2024.04.07-16.47.36:795][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.47.36:797][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.07-16.47.36:908][895]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2024.04.07-16.47.37:882][958]LogViewport: Scene viewport resized to 2759x999, mode Windowed.
+[2024.04.07-16.47.37:936][959]LogViewport: Scene viewport resized to 2414x807, mode Windowed.
+[2024.04.07-16.47.37:977][960]LogViewport: Scene viewport resized to 2353x773, mode Windowed.
+[2024.04.07-16.47.37:992][961]LogViewport: Scene viewport resized to 2346x770, mode Windowed.
+[2024.04.07-16.47.38:011][962]LogViewport: Scene viewport resized to 2345x768, mode Windowed.
+[2024.04.07-16.47.52:133][191]LogViewport: Scene viewport resized to 2343x768, mode Windowed.
+[2024.04.07-16.47.52:155][192]LogViewport: Scene viewport resized to 2336x768, mode Windowed.
+[2024.04.07-16.47.52:174][193]LogViewport: Scene viewport resized to 2320x768, mode Windowed.
+[2024.04.07-16.47.52:195][194]LogViewport: Scene viewport resized to 2282x768, mode Windowed.
+[2024.04.07-16.47.52:215][195]LogViewport: Scene viewport resized to 2226x768, mode Windowed.
+[2024.04.07-16.47.52:251][196]LogViewport: Scene viewport resized to 2123x768, mode Windowed.
+[2024.04.07-16.47.52:269][197]LogViewport: Scene viewport resized to 2089x768, mode Windowed.
+[2024.04.07-16.47.52:308][198]LogViewport: Scene viewport resized to 2058x768, mode Windowed.
+[2024.04.07-16.47.52:327][199]LogViewport: Scene viewport resized to 2051x768, mode Windowed.
+[2024.04.07-16.47.52:350][200]LogViewport: Scene viewport resized to 2044x768, mode Windowed.
+[2024.04.07-16.47.52:369][201]LogViewport: Scene viewport resized to 2034x768, mode Windowed.
+[2024.04.07-16.47.52:391][202]LogViewport: Scene viewport resized to 2020x768, mode Windowed.
+[2024.04.07-16.47.52:416][203]LogViewport: Scene viewport resized to 2007x768, mode Windowed.
+[2024.04.07-16.47.52:435][204]LogViewport: Scene viewport resized to 1999x768, mode Windowed.
+[2024.04.07-16.47.52:455][205]LogViewport: Scene viewport resized to 1996x768, mode Windowed.
+[2024.04.07-16.47.52:472][206]LogViewport: Scene viewport resized to 1993x768, mode Windowed.
+[2024.04.07-16.47.52:490][207]LogViewport: Scene viewport resized to 1990x768, mode Windowed.
+[2024.04.07-16.47.52:507][208]LogViewport: Scene viewport resized to 1987x768, mode Windowed.
+[2024.04.07-16.47.52:526][209]LogViewport: Scene viewport resized to 1981x768, mode Windowed.
+[2024.04.07-16.47.52:544][210]LogViewport: Scene viewport resized to 1974x768, mode Windowed.
+[2024.04.07-16.47.52:562][211]LogViewport: Scene viewport resized to 1965x768, mode Windowed.
+[2024.04.07-16.47.52:581][212]LogViewport: Scene viewport resized to 1953x768, mode Windowed.
+[2024.04.07-16.47.52:599][213]LogViewport: Scene viewport resized to 1940x768, mode Windowed.
+[2024.04.07-16.47.52:618][214]LogViewport: Scene viewport resized to 1927x768, mode Windowed.
+[2024.04.07-16.47.52:639][215]LogViewport: Scene viewport resized to 1914x768, mode Windowed.
+[2024.04.07-16.47.52:662][216]LogViewport: Scene viewport resized to 1904x768, mode Windowed.
+[2024.04.07-16.47.52:680][217]LogViewport: Scene viewport resized to 1902x768, mode Windowed.
+[2024.04.07-16.47.52:698][218]LogViewport: Scene viewport resized to 1900x768, mode Windowed.
+[2024.04.07-16.47.52:715][219]LogViewport: Scene viewport resized to 1896x768, mode Windowed.
+[2024.04.07-16.47.52:732][220]LogViewport: Scene viewport resized to 1891x768, mode Windowed.
+[2024.04.07-16.47.52:752][221]LogViewport: Scene viewport resized to 1884x768, mode Windowed.
+[2024.04.07-16.47.52:769][222]LogViewport: Scene viewport resized to 1880x768, mode Windowed.
+[2024.04.07-16.47.52:787][223]LogViewport: Scene viewport resized to 1874x768, mode Windowed.
+[2024.04.07-16.47.52:808][224]LogViewport: Scene viewport resized to 1867x768, mode Windowed.
+[2024.04.07-16.47.52:827][225]LogViewport: Scene viewport resized to 1858x768, mode Windowed.
+[2024.04.07-16.47.52:845][226]LogViewport: Scene viewport resized to 1848x768, mode Windowed.
+[2024.04.07-16.47.52:863][227]LogViewport: Scene viewport resized to 1840x768, mode Windowed.
+[2024.04.07-16.47.52:882][228]LogViewport: Scene viewport resized to 1831x768, mode Windowed.
+[2024.04.07-16.47.52:901][229]LogViewport: Scene viewport resized to 1825x768, mode Windowed.
+[2024.04.07-16.47.52:919][230]LogViewport: Scene viewport resized to 1817x768, mode Windowed.
+[2024.04.07-16.47.52:938][231]LogViewport: Scene viewport resized to 1809x768, mode Windowed.
+[2024.04.07-16.47.52:957][232]LogViewport: Scene viewport resized to 1799x768, mode Windowed.
+[2024.04.07-16.47.52:977][233]LogViewport: Scene viewport resized to 1789x768, mode Windowed.
+[2024.04.07-16.47.52:995][234]LogViewport: Scene viewport resized to 1780x768, mode Windowed.
+[2024.04.07-16.47.53:013][235]LogViewport: Scene viewport resized to 1770x768, mode Windowed.
+[2024.04.07-16.47.53:033][236]LogViewport: Scene viewport resized to 1763x768, mode Windowed.
+[2024.04.07-16.47.53:053][237]LogViewport: Scene viewport resized to 1757x768, mode Windowed.
+[2024.04.07-16.47.53:071][238]LogViewport: Scene viewport resized to 1750x768, mode Windowed.
+[2024.04.07-16.47.53:088][239]LogViewport: Scene viewport resized to 1745x768, mode Windowed.
+[2024.04.07-16.47.53:106][240]LogViewport: Scene viewport resized to 1742x768, mode Windowed.
+[2024.04.07-16.47.53:125][241]LogViewport: Scene viewport resized to 1739x768, mode Windowed.
+[2024.04.07-16.47.53:145][242]LogViewport: Scene viewport resized to 1736x768, mode Windowed.
+[2024.04.07-16.47.53:162][243]LogViewport: Scene viewport resized to 1732x768, mode Windowed.
+[2024.04.07-16.47.53:182][244]LogViewport: Scene viewport resized to 1726x768, mode Windowed.
+[2024.04.07-16.47.53:200][245]LogViewport: Scene viewport resized to 1719x768, mode Windowed.
+[2024.04.07-16.47.53:219][246]LogViewport: Scene viewport resized to 1711x768, mode Windowed.
+[2024.04.07-16.47.53:239][247]LogViewport: Scene viewport resized to 1702x768, mode Windowed.
+[2024.04.07-16.47.53:257][248]LogViewport: Scene viewport resized to 1694x768, mode Windowed.
+[2024.04.07-16.47.53:275][249]LogViewport: Scene viewport resized to 1686x768, mode Windowed.
+[2024.04.07-16.47.53:309][250]LogViewport: Scene viewport resized to 1681x768, mode Windowed.
+[2024.04.07-16.47.53:478][269]LogViewport: Scene viewport resized to 1680x768, mode Windowed.
+[2024.04.07-16.47.53:503][270]LogViewport: Scene viewport resized to 1678x768, mode Windowed.
+[2024.04.07-16.47.53:525][271]LogViewport: Scene viewport resized to 1676x768, mode Windowed.
+[2024.04.07-16.47.53:541][272]LogViewport: Scene viewport resized to 1674x768, mode Windowed.
+[2024.04.07-16.47.53:558][273]LogViewport: Scene viewport resized to 1672x768, mode Windowed.
+[2024.04.07-16.47.53:579][274]LogViewport: Scene viewport resized to 1671x768, mode Windowed.
+[2024.04.07-16.47.53:599][275]LogViewport: Scene viewport resized to 1669x768, mode Windowed.
+[2024.04.07-16.47.53:950][316]LogViewport: Scene viewport resized to 1666x768, mode Windowed.
+[2024.04.07-16.47.53:964][317]LogViewport: Scene viewport resized to 1664x768, mode Windowed.
+[2024.04.07-16.47.54:057][327]LogViewport: Scene viewport resized to 1663x768, mode Windowed.
+[2024.04.07-16.48.20:711][695]LogViewport: Scene viewport resized to 1663x771, mode Windowed.
+[2024.04.07-16.48.20:728][696]LogViewport: Scene viewport resized to 1663x777, mode Windowed.
+[2024.04.07-16.48.20:750][697]LogViewport: Scene viewport resized to 1663x796, mode Windowed.
+[2024.04.07-16.48.20:768][698]LogViewport: Scene viewport resized to 1663x827, mode Windowed.
+[2024.04.07-16.48.20:789][699]LogViewport: Scene viewport resized to 1663x857, mode Windowed.
+[2024.04.07-16.48.20:808][700]LogViewport: Scene viewport resized to 1663x880, mode Windowed.
+[2024.04.07-16.48.20:829][701]LogViewport: Scene viewport resized to 1663x906, mode Windowed.
+[2024.04.07-16.48.20:848][702]LogViewport: Scene viewport resized to 1663x928, mode Windowed.
+[2024.04.07-16.48.20:867][703]LogViewport: Scene viewport resized to 1663x945, mode Windowed.
+[2024.04.07-16.48.20:888][704]LogViewport: Scene viewport resized to 1663x966, mode Windowed.
+[2024.04.07-16.48.20:907][705]LogViewport: Scene viewport resized to 1663x985, mode Windowed.
+[2024.04.07-16.48.20:928][706]LogViewport: Scene viewport resized to 1663x1009, mode Windowed.
+[2024.04.07-16.48.20:950][707]LogViewport: Scene viewport resized to 1663x1033, mode Windowed.
+[2024.04.07-16.48.20:966][708]LogViewport: Scene viewport resized to 1663x1056, mode Windowed.
+[2024.04.07-16.48.20:987][709]LogViewport: Scene viewport resized to 1663x1073, mode Windowed.
+[2024.04.07-16.48.21:008][710]LogViewport: Scene viewport resized to 1663x1085, mode Windowed.
+[2024.04.07-16.48.21:028][711]LogViewport: Scene viewport resized to 1663x1091, mode Windowed.
+[2024.04.07-16.48.21:065][714]LogViewport: Scene viewport resized to 1663x1092, mode Windowed.
+[2024.04.07-16.48.21:085][715]LogViewport: Scene viewport resized to 1663x1094, mode Windowed.
+[2024.04.07-16.48.21:103][716]LogViewport: Scene viewport resized to 1663x1097, mode Windowed.
+[2024.04.07-16.48.21:121][717]LogViewport: Scene viewport resized to 1663x1101, mode Windowed.
+[2024.04.07-16.48.21:143][718]LogViewport: Scene viewport resized to 1663x1109, mode Windowed.
+[2024.04.07-16.48.21:160][719]LogViewport: Scene viewport resized to 1663x1117, mode Windowed.
+[2024.04.07-16.48.21:180][720]LogViewport: Scene viewport resized to 1663x1124, mode Windowed.
+[2024.04.07-16.48.21:199][721]LogViewport: Scene viewport resized to 1663x1127, mode Windowed.
+[2024.04.07-16.48.21:220][722]LogViewport: Scene viewport resized to 1663x1130, mode Windowed.
+[2024.04.07-16.48.21:239][723]LogViewport: Scene viewport resized to 1663x1133, mode Windowed.
+[2024.04.07-16.48.21:258][724]LogViewport: Scene viewport resized to 1663x1135, mode Windowed.
+[2024.04.07-16.48.21:278][725]LogViewport: Scene viewport resized to 1663x1136, mode Windowed.
+[2024.04.07-16.48.21:296][726]LogViewport: Scene viewport resized to 1663x1137, mode Windowed.
+[2024.04.07-16.48.21:316][727]LogViewport: Scene viewport resized to 1663x1140, mode Windowed.
+[2024.04.07-16.48.21:334][728]LogViewport: Scene viewport resized to 1663x1145, mode Windowed.
+[2024.04.07-16.48.21:350][729]LogViewport: Scene viewport resized to 1663x1151, mode Windowed.
+[2024.04.07-16.48.21:375][730]LogViewport: Scene viewport resized to 1663x1158, mode Windowed.
+[2024.04.07-16.48.21:393][731]LogViewport: Scene viewport resized to 1663x1161, mode Windowed.
+[2024.04.07-16.48.21:421][733]LogViewport: Scene viewport resized to 1663x1162, mode Windowed.
+[2024.04.07-16.48.21:441][734]LogViewport: Scene viewport resized to 1663x1163, mode Windowed.
+[2024.04.07-16.48.21:594][751]LogViewport: Scene viewport resized to 1663x1164, mode Windowed.
+[2024.04.07-16.48.21:613][752]LogViewport: Scene viewport resized to 1663x1165, mode Windowed.
+[2024.04.07-16.48.24:425][853]LogViewport: Scene viewport resized to 1663x1163, mode Windowed.
+[2024.04.07-16.48.24:471][854]LogViewport: Scene viewport resized to 1663x1161, mode Windowed.
+[2024.04.07-16.48.24:497][855]LogViewport: Scene viewport resized to 1663x1158, mode Windowed.
+[2024.04.07-16.48.24:535][856]LogViewport: Scene viewport resized to 1663x1153, mode Windowed.
+[2024.04.07-16.48.24:574][857]LogViewport: Scene viewport resized to 1663x1146, mode Windowed.
+[2024.04.07-16.48.24:611][858]LogViewport: Scene viewport resized to 1663x1143, mode Windowed.
+[2024.04.07-16.48.24:760][873]LogViewport: Scene viewport resized to 1663x1142, mode Windowed.
+[2024.04.07-16.48.24:788][874]LogViewport: Scene viewport resized to 1663x1140, mode Windowed.
+[2024.04.07-16.48.24:804][875]LogViewport: Scene viewport resized to 1663x1139, mode Windowed.
+[2024.04.07-16.48.24:823][876]LogViewport: Scene viewport resized to 1663x1137, mode Windowed.
+[2024.04.07-16.48.24:901][884]LogViewport: Scene viewport resized to 1663x1135, mode Windowed.
+[2024.04.07-16.48.26:491][915]LogViewport: Scene viewport resized to 1663x1134, mode Windowed.
+[2024.04.07-16.48.26:514][916]LogViewport: Scene viewport resized to 1663x1130, mode Windowed.
+[2024.04.07-16.48.26:534][917]LogViewport: Scene viewport resized to 1663x1128, mode Windowed.
+[2024.04.07-16.48.26:555][918]LogViewport: Scene viewport resized to 1663x1125, mode Windowed.
+[2024.04.07-16.48.26:574][919]LogViewport: Scene viewport resized to 1663x1121, mode Windowed.
+[2024.04.07-16.48.26:593][920]LogViewport: Scene viewport resized to 1663x1117, mode Windowed.
+[2024.04.07-16.48.26:613][921]LogViewport: Scene viewport resized to 1663x1115, mode Windowed.
+[2024.04.07-16.48.26:632][922]LogViewport: Scene viewport resized to 1663x1112, mode Windowed.
+[2024.04.07-16.48.26:649][923]LogViewport: Scene viewport resized to 1663x1111, mode Windowed.
+[2024.04.07-16.48.26:674][924]LogViewport: Scene viewport resized to 1663x1107, mode Windowed.
+[2024.04.07-16.48.26:691][925]LogViewport: Scene viewport resized to 1663x1104, mode Windowed.
+[2024.04.07-16.48.26:710][926]LogViewport: Scene viewport resized to 1663x1101, mode Windowed.
+[2024.04.07-16.48.26:729][927]LogViewport: Scene viewport resized to 1663x1099, mode Windowed.
+[2024.04.07-16.48.26:748][928]LogViewport: Scene viewport resized to 1663x1097, mode Windowed.
+[2024.04.07-16.48.26:777][930]LogViewport: Scene viewport resized to 1663x1096, mode Windowed.
+[2024.04.07-16.48.26:805][932]LogViewport: Scene viewport resized to 1663x1095, mode Windowed.
+[2024.04.07-16.48.26:827][934]LogViewport: Scene viewport resized to 1663x1094, mode Windowed.
+[2024.04.07-16.48.26:847][935]LogViewport: Scene viewport resized to 1663x1090, mode Windowed.
+[2024.04.07-16.48.26:866][936]LogViewport: Scene viewport resized to 1663x1087, mode Windowed.
+[2024.04.07-16.48.26:885][937]LogViewport: Scene viewport resized to 1663x1086, mode Windowed.
+[2024.04.07-16.48.26:995][949]LogViewport: Scene viewport resized to 1663x1084, mode Windowed.
+[2024.04.07-16.48.30:412][ 94]LogViewport: Scene viewport resized to 1663x1081, mode Windowed.
+[2024.04.07-16.48.30:434][ 95]LogViewport: Scene viewport resized to 1663x1074, mode Windowed.
+[2024.04.07-16.48.30:454][ 96]LogViewport: Scene viewport resized to 1663x1068, mode Windowed.
+[2024.04.07-16.48.30:472][ 97]LogViewport: Scene viewport resized to 1663x1067, mode Windowed.
+[2024.04.07-16.48.30:492][ 98]LogViewport: Scene viewport resized to 1663x1066, mode Windowed.
+[2024.04.07-16.48.30:613][111]LogViewport: Scene viewport resized to 1663x1065, mode Windowed.
+[2024.04.07-16.48.30:631][112]LogViewport: Scene viewport resized to 1663x1063, mode Windowed.
+[2024.04.07-16.48.30:650][113]LogViewport: Scene viewport resized to 1663x1061, mode Windowed.
+[2024.04.07-16.48.30:668][114]LogViewport: Scene viewport resized to 1663x1057, mode Windowed.
+[2024.04.07-16.48.33:490][247]LogViewport: Scene viewport resized to 1661x1057, mode Windowed.
+[2024.04.07-16.48.33:512][248]LogViewport: Scene viewport resized to 1675x1057, mode Windowed.
+[2024.04.07-16.48.33:533][249]LogViewport: Scene viewport resized to 1695x1057, mode Windowed.
+[2024.04.07-16.48.33:551][250]LogViewport: Scene viewport resized to 1711x1057, mode Windowed.
+[2024.04.07-16.48.33:569][251]LogViewport: Scene viewport resized to 1729x1057, mode Windowed.
+[2024.04.07-16.48.33:589][252]LogViewport: Scene viewport resized to 1745x1057, mode Windowed.
+[2024.04.07-16.48.33:608][253]LogViewport: Scene viewport resized to 1767x1057, mode Windowed.
+[2024.04.07-16.48.33:628][254]LogViewport: Scene viewport resized to 1797x1057, mode Windowed.
+[2024.04.07-16.48.33:647][255]LogViewport: Scene viewport resized to 1825x1057, mode Windowed.
+[2024.04.07-16.48.33:675][256]LogViewport: Scene viewport resized to 1872x1057, mode Windowed.
+[2024.04.07-16.48.33:695][257]LogViewport: Scene viewport resized to 1904x1057, mode Windowed.
+[2024.04.07-16.48.33:715][258]LogViewport: Scene viewport resized to 1929x1057, mode Windowed.
+[2024.04.07-16.48.33:733][259]LogViewport: Scene viewport resized to 1949x1057, mode Windowed.
+[2024.04.07-16.48.33:753][260]LogViewport: Scene viewport resized to 1969x1057, mode Windowed.
+[2024.04.07-16.48.33:773][261]LogViewport: Scene viewport resized to 1982x1057, mode Windowed.
+[2024.04.07-16.48.33:792][262]LogViewport: Scene viewport resized to 1992x1057, mode Windowed.
+[2024.04.07-16.48.35:700][328]LogViewport: Scene viewport resized to 1991x1057, mode Windowed.
+[2024.04.07-16.48.35:722][329]LogViewport: Scene viewport resized to 1982x1057, mode Windowed.
+[2024.04.07-16.48.35:742][330]LogViewport: Scene viewport resized to 1973x1057, mode Windowed.
+[2024.04.07-16.48.35:761][331]LogViewport: Scene viewport resized to 1963x1057, mode Windowed.
+[2024.04.07-16.48.35:780][332]LogViewport: Scene viewport resized to 1954x1057, mode Windowed.
+[2024.04.07-16.48.35:801][333]LogViewport: Scene viewport resized to 1947x1057, mode Windowed.
+[2024.04.07-16.48.35:820][334]LogViewport: Scene viewport resized to 1941x1057, mode Windowed.
+[2024.04.07-16.48.35:840][335]LogViewport: Scene viewport resized to 1937x1057, mode Windowed.
+[2024.04.07-16.48.35:859][336]LogViewport: Scene viewport resized to 1934x1057, mode Windowed.
+[2024.04.07-16.48.35:877][337]LogViewport: Scene viewport resized to 1927x1057, mode Windowed.
+[2024.04.07-16.48.35:896][338]LogViewport: Scene viewport resized to 1922x1057, mode Windowed.
+[2024.04.07-16.48.35:915][339]LogViewport: Scene viewport resized to 1921x1057, mode Windowed.
+[2024.04.07-16.48.35:934][340]LogViewport: Scene viewport resized to 1918x1057, mode Windowed.
+[2024.04.07-16.48.35:983][345]LogViewport: Scene viewport resized to 1917x1057, mode Windowed.
+[2024.04.07-16.48.36:003][346]LogViewport: Scene viewport resized to 1916x1057, mode Windowed.
+[2024.04.07-16.48.36:021][347]LogViewport: Scene viewport resized to 1915x1057, mode Windowed.
+[2024.04.07-16.48.36:055][350]LogViewport: Scene viewport resized to 1914x1057, mode Windowed.
+[2024.04.07-16.48.37:636][380]LogViewport: Scene viewport resized to 1912x1057, mode Windowed.
+[2024.04.07-16.48.37:664][381]LogViewport: Scene viewport resized to 1904x1057, mode Windowed.
+[2024.04.07-16.48.37:682][382]LogViewport: Scene viewport resized to 1902x1057, mode Windowed.
+[2024.04.07-16.48.37:701][383]LogViewport: Scene viewport resized to 1897x1057, mode Windowed.
+[2024.04.07-16.48.37:720][384]LogViewport: Scene viewport resized to 1894x1057, mode Windowed.
+[2024.04.07-16.48.37:738][385]LogViewport: Scene viewport resized to 1892x1057, mode Windowed.
+[2024.04.07-16.48.37:759][386]LogViewport: Scene viewport resized to 1889x1057, mode Windowed.
+[2024.04.07-16.48.37:776][387]LogViewport: Scene viewport resized to 1887x1057, mode Windowed.
+[2024.04.07-16.48.37:796][388]LogViewport: Scene viewport resized to 1883x1057, mode Windowed.
+[2024.04.07-16.48.37:814][389]LogViewport: Scene viewport resized to 1881x1057, mode Windowed.
+[2024.04.07-16.48.37:830][390]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.07-16.48.37:840][391]LogViewport: Scene viewport resized to 1880x1057, mode Windowed.
+[2024.04.07-16.48.37:860][392]LogViewport: Scene viewport resized to 1878x1057, mode Windowed.
+[2024.04.07-16.48.37:878][393]LogViewport: Scene viewport resized to 1876x1057, mode Windowed.
+[2024.04.07-16.48.37:895][394]LogViewport: Scene viewport resized to 1875x1057, mode Windowed.
+[2024.04.07-16.48.41:097][564]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.48.41:103][564]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.48.41:103][564]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.48.41:105][564]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 113 ms)
+[2024.04.07-16.48.41:105][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.48.41:105][564]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:48:41)
+[2024.04.07-16.48.41:125][564]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.48.41:128][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002899s)
+[2024.04.07-16.48.41:128][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002926s)
+[2024.04.07-16.48.41:139][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.07-16.48.41:142][564]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.48.41:142][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.48.41:143][564]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.48.41:143][564]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.48.41:143][564]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.48.41:143][564]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.48.41:143][564]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.48.41:144][564]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.48.41:144][564]LogWorldPartition: Display: WorldPartition initialize took 811 us (total: 130 ms)
+[2024.04.07-16.48.41:144][564]LogPlayLevel: PIE: World Init took: (0.001800s)
+[2024.04.07-16.48.41:144][564]LogAudio: Display: Creating Audio Device:                 Id: 85, Scope: Unique, Realtime: True
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.48.41:144][564]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.48.41:144][564]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.48.41:144][564]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.48.41:144][564]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.48.41:144][564]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.48.41:146][564]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.48.41:161][564]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.48.41:161][564]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.48.41:161][564]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.48.41:161][564]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.48.41:162][564]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=85
+[2024.04.07-16.48.41:162][564]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=85
+[2024.04.07-16.48.41:163][564]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=85
+[2024.04.07-16.48.41:163][564]LogInit: FAudioDevice initialized with ID 85.
+[2024.04.07-16.48.41:163][564]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=85
+[2024.04.07-16.48.41:163][564]LogAudio: Display: Audio Device (ID: 85) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.48.41:163][564]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 85
+[2024.04.07-16.48.41:165][564]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.48.41:167][564]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.48.41
+[2024.04.07-16.48.41:167][564]LogWorld: Bringing up level for play took: 0.001248
+[2024.04.07-16.48.41:168][564]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2024.04.07-16.48.41:172][564]PIE: Server logged in
+[2024.04.07-16.48.41:172][564]PIE: Play in editor total start time 0,07 seconds.
+[2024.04.07-16.49.32:066][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.49.32:066][654]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.49.32:066][654]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.49.32:066][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.49.32:066][654]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.49.32:069][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.49.32:072][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.49.32:083][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.49.32:083][654]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 85
+[2024.04.07-16.49.32:083][654]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2024.04.07-16.49.32:084][654]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2024.04.07-16.49.32:090][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.07-16.49.32:150][655]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2024.04.07-16.49.37:999][864]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.49.38:003][864]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.49.38:003][864]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.49.38:005][864]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 114 ms)
+[2024.04.07-16.49.38:005][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.49.38:005][864]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:49:38)
+[2024.04.07-16.49.38:045][864]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.49.38:048][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002876s)
+[2024.04.07-16.49.38:048][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002903s)
+[2024.04.07-16.49.38:058][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.07-16.49.38:062][864]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.49.38:062][864]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.49.38:063][864]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.49.38:063][864]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.49.38:063][864]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.49.38:063][864]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.49.38:063][864]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.49.38:063][864]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.49.38:063][864]LogWorldPartition: Display: WorldPartition initialize took 827 us (total: 131 ms)
+[2024.04.07-16.49.38:063][864]LogPlayLevel: PIE: World Init took: (0.001782s)
+[2024.04.07-16.49.38:063][864]LogAudio: Display: Creating Audio Device:                 Id: 86, Scope: Unique, Realtime: True
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.49.38:063][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.49.38:063][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.49.38:064][864]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.49.38:064][864]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.49.38:064][864]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.49.38:065][864]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.49.38:080][864]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.49.38:080][864]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.49.38:080][864]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.49.38:080][864]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.49.38:081][864]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=86
+[2024.04.07-16.49.38:081][864]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=86
+[2024.04.07-16.49.38:082][864]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=86
+[2024.04.07-16.49.38:082][864]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=86
+[2024.04.07-16.49.38:082][864]LogInit: FAudioDevice initialized with ID 86.
+[2024.04.07-16.49.38:082][864]LogAudio: Display: Audio Device (ID: 86) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.49.38:082][864]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 86
+[2024.04.07-16.49.38:085][864]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.49.38:086][864]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.49.38
+[2024.04.07-16.49.38:086][864]LogWorld: Bringing up level for play took: 0.001349
+[2024.04.07-16.49.38:088][864]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2024.04.07-16.49.38:091][864]PIE: Server logged in
+[2024.04.07-16.49.38:092][864]PIE: Play in editor total start time 0,088 seconds.
+[2024.04.07-16.50.07:395][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.50.07:395][368]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.50.07:395][368]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.50.07:395][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.50.07:395][368]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.50.07:399][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.50.07:402][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.50.07:415][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.50.07:415][368]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 86
+[2024.04.07-16.50.07:415][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2024.04.07-16.50.07:417][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2024.04.07-16.50.07:422][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.07-16.50.07:482][369]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2024.04.07-16.51.44:730][727]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2024.04.07-16.51.44:730][727]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2024.04.07-16.51.46:857][932]LogViewport: Scene viewport resized to 1878x1057, mode Windowed.
+[2024.04.07-16.51.46:876][933]LogViewport: Scene viewport resized to 1886x1057, mode Windowed.
+[2024.04.07-16.51.46:894][934]LogViewport: Scene viewport resized to 1902x1057, mode Windowed.
+[2024.04.07-16.51.46:913][935]LogViewport: Scene viewport resized to 1932x1057, mode Windowed.
+[2024.04.07-16.51.46:932][936]LogViewport: Scene viewport resized to 1976x1057, mode Windowed.
+[2024.04.07-16.51.46:953][937]LogViewport: Scene viewport resized to 2032x1057, mode Windowed.
+[2024.04.07-16.51.46:972][938]LogViewport: Scene viewport resized to 2087x1057, mode Windowed.
+[2024.04.07-16.51.46:993][939]LogViewport: Scene viewport resized to 2130x1057, mode Windowed.
+[2024.04.07-16.51.47:012][940]LogViewport: Scene viewport resized to 2167x1057, mode Windowed.
+[2024.04.07-16.51.47:033][941]LogViewport: Scene viewport resized to 2192x1057, mode Windowed.
+[2024.04.07-16.51.47:051][942]LogViewport: Scene viewport resized to 2214x1057, mode Windowed.
+[2024.04.07-16.51.47:073][943]LogViewport: Scene viewport resized to 2237x1057, mode Windowed.
+[2024.04.07-16.51.47:091][944]LogViewport: Scene viewport resized to 2260x1057, mode Windowed.
+[2024.04.07-16.51.47:113][945]LogViewport: Scene viewport resized to 2279x1057, mode Windowed.
+[2024.04.07-16.51.47:131][946]LogViewport: Scene viewport resized to 2292x1057, mode Windowed.
+[2024.04.07-16.51.47:152][947]LogViewport: Scene viewport resized to 2300x1057, mode Windowed.
+[2024.04.07-16.51.47:170][948]LogViewport: Scene viewport resized to 2307x1057, mode Windowed.
+[2024.04.07-16.51.47:192][949]LogViewport: Scene viewport resized to 2308x1057, mode Windowed.
+[2024.04.07-16.51.47:269][957]LogViewport: Scene viewport resized to 2309x1057, mode Windowed.
+[2024.04.07-16.51.47:286][958]LogViewport: Scene viewport resized to 2316x1057, mode Windowed.
+[2024.04.07-16.51.47:304][959]LogViewport: Scene viewport resized to 2331x1057, mode Windowed.
+[2024.04.07-16.51.47:322][960]LogViewport: Scene viewport resized to 2351x1057, mode Windowed.
+[2024.04.07-16.51.47:342][961]LogViewport: Scene viewport resized to 2378x1057, mode Windowed.
+[2024.04.07-16.51.47:362][962]LogViewport: Scene viewport resized to 2405x1057, mode Windowed.
+[2024.04.07-16.51.47:381][963]LogViewport: Scene viewport resized to 2428x1057, mode Windowed.
+[2024.04.07-16.51.47:403][964]LogViewport: Scene viewport resized to 2444x1057, mode Windowed.
+[2024.04.07-16.51.47:423][965]LogViewport: Scene viewport resized to 2455x1057, mode Windowed.
+[2024.04.07-16.51.47:441][966]LogViewport: Scene viewport resized to 2462x1057, mode Windowed.
+[2024.04.07-16.51.47:463][967]LogViewport: Scene viewport resized to 2463x1057, mode Windowed.
+[2024.04.07-16.51.47:515][972]LogViewport: Scene viewport resized to 2464x1057, mode Windowed.
+[2024.04.07-16.51.47:534][973]LogViewport: Scene viewport resized to 2467x1057, mode Windowed.
+[2024.04.07-16.51.47:551][974]LogViewport: Scene viewport resized to 2468x1057, mode Windowed.
+[2024.04.07-16.51.47:570][975]LogViewport: Scene viewport resized to 2469x1057, mode Windowed.
+[2024.04.07-16.51.49:340][178]LogViewport: Scene viewport resized to 2469x1054, mode Windowed.
+[2024.04.07-16.51.49:362][179]LogViewport: Scene viewport resized to 2469x1043, mode Windowed.
+[2024.04.07-16.51.49:386][180]LogViewport: Scene viewport resized to 2469x1028, mode Windowed.
+[2024.04.07-16.51.49:405][181]LogViewport: Scene viewport resized to 2469x1018, mode Windowed.
+[2024.04.07-16.51.49:424][182]LogViewport: Scene viewport resized to 2469x1005, mode Windowed.
+[2024.04.07-16.51.49:445][183]LogViewport: Scene viewport resized to 2469x991, mode Windowed.
+[2024.04.07-16.51.49:465][184]LogViewport: Scene viewport resized to 2469x979, mode Windowed.
+[2024.04.07-16.51.49:483][185]LogViewport: Scene viewport resized to 2469x967, mode Windowed.
+[2024.04.07-16.51.49:504][186]LogViewport: Scene viewport resized to 2469x952, mode Windowed.
+[2024.04.07-16.51.49:521][187]LogViewport: Scene viewport resized to 2469x939, mode Windowed.
+[2024.04.07-16.51.49:539][188]LogViewport: Scene viewport resized to 2469x927, mode Windowed.
+[2024.04.07-16.51.49:560][189]LogViewport: Scene viewport resized to 2469x920, mode Windowed.
+[2024.04.07-16.51.49:580][190]LogViewport: Scene viewport resized to 2469x913, mode Windowed.
+[2024.04.07-16.51.49:599][191]LogViewport: Scene viewport resized to 2469x908, mode Windowed.
+[2024.04.07-16.51.49:617][192]LogViewport: Scene viewport resized to 2469x902, mode Windowed.
+[2024.04.07-16.51.49:635][193]LogViewport: Scene viewport resized to 2469x896, mode Windowed.
+[2024.04.07-16.51.49:663][194]LogViewport: Scene viewport resized to 2469x885, mode Windowed.
+[2024.04.07-16.51.49:685][195]LogViewport: Scene viewport resized to 2469x872, mode Windowed.
+[2024.04.07-16.51.49:704][196]LogViewport: Scene viewport resized to 2469x862, mode Windowed.
+[2024.04.07-16.51.49:726][197]LogViewport: Scene viewport resized to 2469x850, mode Windowed.
+[2024.04.07-16.51.49:744][198]LogViewport: Scene viewport resized to 2469x844, mode Windowed.
+[2024.04.07-16.51.49:763][199]LogViewport: Scene viewport resized to 2469x843, mode Windowed.
+[2024.04.07-16.51.49:792][201]LogViewport: Scene viewport resized to 2469x841, mode Windowed.
+[2024.04.07-16.51.49:811][202]LogViewport: Scene viewport resized to 2469x840, mode Windowed.
+[2024.04.07-16.51.49:830][203]LogViewport: Scene viewport resized to 2469x836, mode Windowed.
+[2024.04.07-16.51.49:847][204]LogViewport: Scene viewport resized to 2469x833, mode Windowed.
+[2024.04.07-16.51.49:868][205]LogViewport: Scene viewport resized to 2469x828, mode Windowed.
+[2024.04.07-16.51.49:884][206]LogViewport: Scene viewport resized to 2469x824, mode Windowed.
+[2024.04.07-16.51.49:903][207]LogViewport: Scene viewport resized to 2469x818, mode Windowed.
+[2024.04.07-16.51.49:923][208]LogViewport: Scene viewport resized to 2469x811, mode Windowed.
+[2024.04.07-16.51.49:939][209]LogViewport: Scene viewport resized to 2469x805, mode Windowed.
+[2024.04.07-16.51.49:959][210]LogViewport: Scene viewport resized to 2469x797, mode Windowed.
+[2024.04.07-16.51.49:979][211]LogViewport: Scene viewport resized to 2469x791, mode Windowed.
+[2024.04.07-16.51.50:000][212]LogViewport: Scene viewport resized to 2469x785, mode Windowed.
+[2024.04.07-16.51.50:018][213]LogViewport: Scene viewport resized to 2469x779, mode Windowed.
+[2024.04.07-16.51.50:039][214]LogViewport: Scene viewport resized to 2469x773, mode Windowed.
+[2024.04.07-16.51.50:060][215]LogViewport: Scene viewport resized to 2469x767, mode Windowed.
+[2024.04.07-16.51.50:078][216]LogViewport: Scene viewport resized to 2469x761, mode Windowed.
+[2024.04.07-16.51.51:335][362]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.51.51:341][362]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.51.51:341][362]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.51.51:342][362]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 115 ms)
+[2024.04.07-16.51.51:342][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.51.51:342][362]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:51:51)
+[2024.04.07-16.51.51:375][362]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.51.51:378][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002979s)
+[2024.04.07-16.51.51:378][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003008s)
+[2024.04.07-16.51.51:387][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.07-16.51.51:391][362]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.51.51:391][362]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.51.51:391][362]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.51.51:392][362]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.51.51:392][362]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.51.51:392][362]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.51.51:392][362]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.51.51:392][362]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.51.51:392][362]LogWorldPartition: Display: WorldPartition initialize took 811 us (total: 132 ms)
+[2024.04.07-16.51.51:392][362]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2024.04.07-16.51.51:392][362]LogAudio: Display: Creating Audio Device:                 Id: 87, Scope: Unique, Realtime: True
+[2024.04.07-16.51.51:392][362]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.51.51:393][362]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.51.51:393][362]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.51.51:393][362]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.51.51:393][362]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.51.51:393][362]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.51.51:393][362]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.51.51:393][362]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.51.51:393][362]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.51.51:393][362]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.51.51:393][362]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.51.51:394][362]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.51.51:410][362]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.51.51:410][362]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.51.51:410][362]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.51.51:410][362]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.51.51:411][362]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=87
+[2024.04.07-16.51.51:411][362]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=87
+[2024.04.07-16.51.51:412][362]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=87
+[2024.04.07-16.51.51:412][362]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=87
+[2024.04.07-16.51.51:412][362]LogInit: FAudioDevice initialized with ID 87.
+[2024.04.07-16.51.51:412][362]LogAudio: Display: Audio Device (ID: 87) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.51.51:412][362]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 87
+[2024.04.07-16.51.51:414][362]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.51.51:415][362]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.51.51
+[2024.04.07-16.51.51:415][362]LogWorld: Bringing up level for play took: 0.001239
+[2024.04.07-16.51.51:417][362]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2024.04.07-16.51.51:420][362]PIE: Server logged in
+[2024.04.07-16.51.51:421][362]PIE: Play in editor total start time 0,081 seconds.
+[2024.04.07-16.52.34:695][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.52.34:695][539]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.52.34:695][539]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.52.34:695][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.52.34:695][539]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.52.34:698][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.52.34:701][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.52.34:713][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.52.34:714][539]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 87
+[2024.04.07-16.52.34:714][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2024.04.07-16.52.34:715][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2024.04.07-16.52.34:720][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.07-16.52.34:780][540]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2024.04.07-16.52.47:507][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.52.47:574][742]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.04.07-16.52.47:574][742]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/BP_ThirdPersonCharacter065EFA544430478648BA5BA14987C13E.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.04.07-16.52.47:579][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 7.53 sec)
+[2024.04.07-16.52.47:580][742]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.04.07-16.52.47:580][742]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.04.07-16.53.51:447][919]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.53.51:454][919]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.53.51:454][919]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.53.51:456][919]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 116 ms)
+[2024.04.07-16.53.51:457][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.53.51:457][919]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:53:51)
+[2024.04.07-16.53.51:495][919]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.53.51:498][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002988s)
+[2024.04.07-16.53.51:498][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003020s)
+[2024.04.07-16.53.51:509][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.04.07-16.53.51:513][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.53.51:513][919]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.53.51:513][919]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.53.51:514][919]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.53.51:514][919]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.53.51:514][919]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.53.51:514][919]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.53.51:514][919]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.53.51:514][919]LogWorldPartition: Display: WorldPartition initialize took 826 us (total: 132 ms)
+[2024.04.07-16.53.51:514][919]LogPlayLevel: PIE: World Init took: (0.001738s)
+[2024.04.07-16.53.51:514][919]LogAudio: Display: Creating Audio Device:                 Id: 88, Scope: Unique, Realtime: True
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.53.51:514][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.53.51:514][919]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.53.51:514][919]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.53.51:514][919]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.53.51:514][919]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.53.51:517][919]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.53.51:531][919]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.53.51:531][919]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.53.51:531][919]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.53.51:531][919]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.53.51:531][919]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=88
+[2024.04.07-16.53.51:531][919]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=88
+[2024.04.07-16.53.51:533][919]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=88
+[2024.04.07-16.53.51:533][919]LogInit: FAudioDevice initialized with ID 88.
+[2024.04.07-16.53.51:533][919]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=88
+[2024.04.07-16.53.51:533][919]LogAudio: Display: Audio Device (ID: 88) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.53.51:533][919]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 88
+[2024.04.07-16.53.51:535][919]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.53.51:536][919]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.53.51
+[2024.04.07-16.53.51:536][919]LogWorld: Bringing up level for play took: 0.001336
+[2024.04.07-16.53.51:538][919]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2024.04.07-16.53.51:541][919]PIE: Server logged in
+[2024.04.07-16.53.51:542][919]PIE: Play in editor total start time 0,087 seconds.
+[2024.04.07-16.53.52:595][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.53.52:595][ 35]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.53.52:595][ 35]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.53.52:595][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.53.52:595][ 35]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.53.52:598][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.53.52:601][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.53.52:613][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.53.52:614][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 88
+[2024.04.07-16.53.52:614][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
+[2024.04.07-16.53.52:616][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
+[2024.04.07-16.53.52:621][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.07-16.53.52:680][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2024.04.07-16.53.54:032][185]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.53.54:038][185]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.53.54:038][185]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.53.54:039][185]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 117 ms)
+[2024.04.07-16.53.54:039][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.53.54:039][185]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:53:54)
+[2024.04.07-16.53.54:039][185]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.53.54:042][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002867s)
+[2024.04.07-16.53.54:042][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002888s)
+[2024.04.07-16.53.54:054][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.07-16.53.54:057][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.53.54:057][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.53.54:058][185]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.53.54:058][185]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.53.54:058][185]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.53.54:058][185]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.53.54:058][185]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.53.54:059][185]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.53.54:059][185]LogWorldPartition: Display: WorldPartition initialize took 818 us (total: 133 ms)
+[2024.04.07-16.53.54:059][185]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2024.04.07-16.53.54:059][185]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.53.54:059][185]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.53.54:059][185]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.53.54:059][185]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.53.54:059][185]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.53.54:059][185]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.53.54:061][185]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.53.54:075][185]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.53.54:075][185]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.53.54:075][185]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.53.54:075][185]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.53.54:075][185]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=89
+[2024.04.07-16.53.54:075][185]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=89
+[2024.04.07-16.53.54:077][185]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=89
+[2024.04.07-16.53.54:077][185]LogInit: FAudioDevice initialized with ID 89.
+[2024.04.07-16.53.54:077][185]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=89
+[2024.04.07-16.53.54:077][185]LogAudio: Display: Audio Device (ID: 89) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.53.54:077][185]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 89
+[2024.04.07-16.53.54:079][185]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.53.54:080][185]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.53.54
+[2024.04.07-16.53.54:081][185]LogWorld: Bringing up level for play took: 0.001323
+[2024.04.07-16.53.54:082][185]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2024.04.07-16.53.54:084][185]PIE: Server logged in
+[2024.04.07-16.53.54:085][185]PIE: Play in editor total start time 0,048 seconds.
+[2024.04.07-16.53.54:766][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.53.54:766][257]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.53.54:766][257]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.53.54:766][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.53.54:766][257]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.53.54:768][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.53.54:771][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.53.54:782][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.53.54:782][257]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 89
+[2024.04.07-16.53.54:782][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2024.04.07-16.53.54:783][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2024.04.07-16.53.54:789][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.07-16.53.54:848][258]LogPlayLevel: Display: Destroying online subsystem :Context_113
