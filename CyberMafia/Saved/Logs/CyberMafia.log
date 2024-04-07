@@ -8652,3 +8652,274 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.07-16.53.54:848][258]LogPlayLevel: Display: Destroying online subsystem :Context_113
 [2024.04.07-16.54.03:844][368]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
 [2024.04.07-16.54.03:844][368]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.04.07-16.54.32:797][763]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.54.32:802][763]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.54.32:802][763]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-16.54.32:804][763]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 118 ms)
+[2024.04.07-16.54.32:804][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.54.32:804][763]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 22:54:32)
+[2024.04.07-16.54.32:835][763]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.54.32:838][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003077s)
+[2024.04.07-16.54.32:838][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003106s)
+[2024.04.07-16.54.32:850][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.07-16.54.32:853][763]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.54.32:853][763]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.54.32:853][763]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-16.54.32:853][763]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.54.32:853][763]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.54.32:853][763]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.54.32:853][763]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.54.32:855][763]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.54.32:855][763]LogWorldPartition: Display: WorldPartition initialize took 778 us (total: 134 ms)
+[2024.04.07-16.54.32:855][763]LogPlayLevel: PIE: World Init took: (0.001642s)
+[2024.04.07-16.54.32:855][763]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.54.32:855][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-16.54.32:855][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.54.32:855][763]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.54.32:855][763]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.54.32:855][763]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.54.32:856][763]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.54.32:870][763]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-16.54.32:871][763]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.54.32:871][763]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.54.32:871][763]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.54.32:871][763]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=90
+[2024.04.07-16.54.32:871][763]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=90
+[2024.04.07-16.54.32:872][763]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2024.04.07-16.54.32:872][763]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=90
+[2024.04.07-16.54.32:872][763]LogInit: FAudioDevice initialized with ID 90.
+[2024.04.07-16.54.32:872][763]LogAudio: Display: Audio Device (ID: 90) registered with world 'ThirdPersonMap'.
+[2024.04.07-16.54.32:872][763]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 90
+[2024.04.07-16.54.32:875][763]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-16.54.32:876][763]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-19.54.32
+[2024.04.07-16.54.32:876][763]LogWorld: Bringing up level for play took: 0.001337
+[2024.04.07-16.54.32:878][763]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2024.04.07-16.54.32:880][763]PIE: Server logged in
+[2024.04.07-16.54.32:881][763]PIE: Play in editor total start time 0,079 seconds.
+[2024.04.07-16.54.33:235][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.54.33:235][794]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-16.54.33:235][794]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.54.33:235][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.54.33:235][794]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.54.33:238][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.54.33:242][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.54.33:255][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.54.33:255][794]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 90
+[2024.04.07-16.54.33:255][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2024.04.07-16.54.33:257][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2024.04.07-16.54.33:261][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.07-16.54.33:317][795]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2024.04.07-17.00.31:147][925]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2024.04.07-17.00.31:147][925]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2024.04.07-17.00.57:161][166]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.07-17.00.57:172][166]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.07-17.00.57:181][167]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.07-17.00.58:169][281]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.04.07-17.00.58:169][281]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.04.07-17.01.01:171][641]LogContentBrowser: Attempting asset rename: NewFolder -> Inventory
+[2024.04.07-17.01.01:171][641]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.07-17.01.07:018][929]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.07-17.01.07:026][929]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.07-17.01.07:085][931]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.07-17.01.10:031][285]LogContentBrowser: Attempting asset rename: NewFolder -> Categories
+[2024.04.07-17.01.10:032][285]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.07-17.01.14:797][510]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.07-17.01.14:808][510]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.07-17.01.14:864][512]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.07-17.01.19:136][ 25]LogContentBrowser: Attempting asset rename: NewFolder -> Weapons
+[2024.04.07-17.01.19:137][ 25]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.07-17.01.30:602][207]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.04.07-17.01.32:660][439]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2024.04.07-17.01.32:667][439]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2024.04.07-17.01.32:742][441]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2024.04.07-17.01.42:365][584]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> S_Weapon
+[2024.04.07-17.01.42:408][584]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2024.04.07-17.01.43:844][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.01.43:869][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/S_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/S_Weapon.uasset" SILENT=true
+[2024.04.07-17.01.43:870][749]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/S_Weapon
+[2024.04.07-17.01.43:870][749]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/S_Weapon124E74D643728DDE4E02D18AC89189BE.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/S_Weapon.uasset'
+[2024.04.07-17.01.43:876][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 7.56 sec)
+[2024.04.07-17.01.43:876][749]AssetCheck: New page: Asset Save: S_Weapon
+[2024.04.07-17.01.43:876][749]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Inventory/Categories/Weapons/S_Weapon.S_Weapon
+[2024.04.07-17.01.48:556][898]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Inventory/Categories/Weapons/S_Weapon.S_Weapon
+[2024.04.07-17.02.01:999][327]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2024.04.07-17.02.47:861][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.02.47:894][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/S_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/S_Weapon.uasset" SILENT=true
+[2024.04.07-17.02.47:895][ 68]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/S_Weapon
+[2024.04.07-17.02.47:895][ 68]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/S_Weapon6E9A52914E41BF03C99D1EBCEA9DD55F.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/S_Weapon.uasset'
+[2024.04.07-17.02.47:900][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 7.60 sec)
+[2024.04.07-17.02.47:901][ 68]AssetCheck: New page: Asset Save: S_Weapon
+[2024.04.07-17.02.47:901][ 68]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Inventory/Categories/Weapons/S_Weapon.S_Weapon
+[2024.04.07-17.02.54:041][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.02.54:069][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/S_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/S_Weapon.uasset" SILENT=true
+[2024.04.07-17.02.54:070][320]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/S_Weapon
+[2024.04.07-17.02.54:070][320]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/S_Weapon1D71D1534F8DBB8B6D43B2BDA5F18482.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/S_Weapon.uasset'
+[2024.04.07-17.02.54:076][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 7.64 sec)
+[2024.04.07-17.02.54:076][320]AssetCheck: New page: Asset Save: S_Weapon
+[2024.04.07-17.02.54:076][320]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Inventory/Categories/Weapons/S_Weapon.S_Weapon
+[2024.04.07-17.02.56:385][553]LogSlate: Window 'S_Weapon' being destroyed
+[2024.04.07-17.03.14:884][990]LogSlate: Window 'Pick Row Structure' being destroyed
+[2024.04.07-17.03.14:888][990]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2024.04.07-17.03.14:895][990]LogContentBrowser: Creating deferred item: NewDataTable
+[2024.04.07-17.03.14:904][991]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataTable).
+[2024.04.07-17.03.16:265][ 21]LogContentBrowser: Attempting asset rename: NewDataTable -> NewDataTable
+[2024.04.07-17.03.16:266][ 21]LogContentBrowser: End creating deferred item NewDataTable
+[2024.04.07-17.03.25:594][753]LogContentBrowser: Attempting asset rename: NewDataTable -> WeaponTable
+[2024.04.07-17.03.25:618][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.03.25:638][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/WeaponTable" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset" SILENT=true
+[2024.04.07-17.03.25:642][753]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/WeaponTable
+[2024.04.07-17.03.25:643][753]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/WeaponTable3821F06F47E942D85A4A629BF8FE1DD3.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset'
+[2024.04.07-17.03.25:647][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 7.67 sec)
+[2024.04.07-17.03.25:672][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.07-17.03.25:685][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.04.07-17.03.25:694][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.04.07-17.03.25:697][753]AssetCheck: New page: Asset Save: WeaponTable
+[2024.04.07-17.03.25:697][753]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Inventory/Categories/Weapons/WeaponTable.WeaponTable
+[2024.04.07-17.03.26:499][847]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.03.26:523][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/WeaponTable" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset" SILENT=true
+[2024.04.07-17.03.26:524][847]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/WeaponTable
+[2024.04.07-17.03.26:524][847]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/WeaponTableEE038E6F4F5E2E16EF0D0FA0CAC37FEA.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset'
+[2024.04.07-17.03.26:530][847]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 7.70 sec)
+[2024.04.07-17.03.26:531][847]AssetCheck: New page: Asset Save: WeaponTable
+[2024.04.07-17.03.26:531][847]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Inventory/Categories/Weapons/WeaponTable.WeaponTable
+[2024.04.07-17.03.26:957][892]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Inventory/Categories/Weapons/WeaponTable.WeaponTable
+[2024.04.07-17.03.48:656][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.03.48:680][878]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.03.59:462][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.03.59:486][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/WeaponTable" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset" SILENT=true
+[2024.04.07-17.03.59:487][159]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/WeaponTable
+[2024.04.07-17.03.59:487][159]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/WeaponTable003E607146CFF6FEE85915BADEF11917.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset'
+[2024.04.07-17.03.59:492][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 7.73 sec)
+[2024.04.07-17.03.59:492][159]AssetCheck: New page: Asset Save: WeaponTable
+[2024.04.07-17.03.59:492][159]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Inventory/Categories/Weapons/WeaponTable.WeaponTable
+[2024.04.07-17.03.59:758][190]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.03.59:783][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/WeaponTable" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset" SILENT=true
+[2024.04.07-17.03.59:784][190]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/WeaponTable
+[2024.04.07-17.03.59:784][190]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/WeaponTableA72C426943F630F7A48090B0520E507B.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset'
+[2024.04.07-17.03.59:788][190]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 7.76 sec)
+[2024.04.07-17.03.59:789][190]AssetCheck: New page: Asset Save: WeaponTable
+[2024.04.07-17.03.59:789][190]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Inventory/Categories/Weapons/WeaponTable.WeaponTable
+[2024.04.07-17.04.12:096][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.04.12:116][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/WeaponTable" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset" SILENT=true
+[2024.04.07-17.04.12:117][651]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/WeaponTable
+[2024.04.07-17.04.12:117][651]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/WeaponTableC271429D4B190CD35EB7DFA24B55F26A.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/WeaponTable.uasset'
+[2024.04.07-17.04.12:122][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 25 ms (total: 7.78 sec)
+[2024.04.07-17.04.12:123][651]AssetCheck: New page: Asset Save: WeaponTable
+[2024.04.07-17.04.12:123][651]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Inventory/Categories/Weapons/WeaponTable.WeaponTable
+[2024.04.07-17.04.48:459][228]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.07-17.04.48:465][228]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.07-17.04.48:470][228]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.07-17.04.48:480][229]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.07-17.04.56:229][153]LogContentBrowser: Attempting asset rename: NewBlueprint -> AC_Weapon
+[2024.04.07-17.04.56:233][153]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.07-17.04.59:721][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Inventory/Categories/Weapons/AC_Weapon.AC_Weapon
+[2024.04.07-17.04.59:721][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.04.59:721][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-17.05.14:520][214]BlueprintLog: New page: Compile AC_Weapon
+[2024.04.07-17.05.14:541][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.07-17.05.14:904][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.05.14:928][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/AC_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset" SILENT=true
+[2024.04.07-17.05.14:929][255]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/AC_Weapon
+[2024.04.07-17.05.14:929][255]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/AC_WeaponC02DD6194FBA5B7D90AFD4AD8F9385D9.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset'
+[2024.04.07-17.05.14:936][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 7.82 sec)
+[2024.04.07-17.05.14:937][255]AssetCheck: New page: Asset Save: AC_Weapon
+[2024.04.07-17.05.14:937][255]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Inventory/Categories/Weapons/AC_Weapon.AC_Weapon
+[2024.04.07-17.06.18:945][167]LogEditorTransaction: Undo Add Node
+[2024.04.07-17.06.19:077][167]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.07-17.08.43:957][708]BlueprintLog: New page: Compile AC_Weapon
+[2024.04.07-17.08.43:959][708]LogClass: Warning: Type mismatch in Weapons of AC_Weapon_C - Previous (NameProperty) Current(MapProperty) for package:  FObjectReader
+[2024.04.07-17.08.43:978][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.07-17.08.44:384][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.08.44:410][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/AC_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset" SILENT=true
+[2024.04.07-17.08.44:413][753]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/AC_Weapon
+[2024.04.07-17.08.44:414][753]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/AC_Weapon92DD05BB4D8838E13FFBB3AD286394FA.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset'
+[2024.04.07-17.08.44:419][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 7.85 sec)
+[2024.04.07-17.08.44:419][753]AssetCheck: New page: Asset Save: AC_Weapon
+[2024.04.07-17.08.44:419][753]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Inventory/Categories/Weapons/AC_Weapon.AC_Weapon
+[2024.04.07-17.09.27:350][587]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.04.07-17.09.27:468][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.07-17.14.06:872][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.14.06:899][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/AC_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset" SILENT=true
+[2024.04.07-17.14.06:904][ 77]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/AC_Weapon
+[2024.04.07-17.14.06:905][ 77]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/AC_Weapon438A46F045219135BA610AB064C61DB8.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset'
+[2024.04.07-17.14.06:909][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 7.89 sec)
+[2024.04.07-17.14.06:910][ 77]AssetCheck: New page: Asset Save: AC_Weapon
+[2024.04.07-17.14.06:910][ 77]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Inventory/Categories/Weapons/AC_Weapon.AC_Weapon
+[2024.04.07-17.14.07:325][127]BlueprintLog: New page: Compile AC_Weapon
+[2024.04.07-17.14.07:347][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.07-17.14.07:833][180]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.14.07:857][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Categories/Weapons/AC_Weapon" FILE="../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset" SILENT=true
+[2024.04.07-17.14.07:862][180]LogSavePackage: Moving output files for package: /Game/Inventory/Categories/Weapons/AC_Weapon
+[2024.04.07-17.14.07:863][180]LogSavePackage: Moving '../../../../../../UE/Cyber_Mafia/CyberMafia/Saved/AC_WeaponB5CBA01943219BD6661BA99FC46E2036.tmp' to '../../../../../../UE/Cyber_Mafia/CyberMafia/Content/Inventory/Categories/Weapons/AC_Weapon.uasset'
+[2024.04.07-17.14.07:868][180]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 7.92 sec)
+[2024.04.07-17.14.07:869][180]AssetCheck: New page: Asset Save: AC_Weapon
+[2024.04.07-17.14.07:869][180]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Inventory/Categories/Weapons/AC_Weapon.AC_Weapon
+[2024.04.07-17.14.26:538][529]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-17.14.26:543][529]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-17.14.26:543][529]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.07-17.14.26:545][529]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 120 ms)
+[2024.04.07-17.14.26:545][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-17.14.26:545][529]PIE: New page: PIE session: ThirdPersonMap (7 апр. 2024 г., 23:14:26)
+[2024.04.07-17.14.26:545][529]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-17.14.26:548][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002881s)
+[2024.04.07-17.14.26:548][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002903s)
+[2024.04.07-17.14.26:559][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.04.07-17.14.26:562][529]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.14.26:562][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-17.14.26:562][529]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.07-17.14.26:562][529]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-17.14.26:563][529]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-17.14.26:563][529]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-17.14.26:563][529]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-17.14.26:563][529]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-17.14.26:563][529]LogWorldPartition: Display: WorldPartition initialize took 782 us (total: 135 ms)
+[2024.04.07-17.14.26:563][529]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2024.04.07-17.14.26:563][529]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-17.14.26:563][529]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.07-17.14.26:563][529]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-17.14.26:564][529]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-17.14.26:564][529]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-17.14.26:564][529]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-17.14.26:565][529]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-17.14.26:580][529]LogAudioMixer: Display: Using Audio Hardware Device Динамики (2- USB Audio Device)
+[2024.04.07-17.14.26:580][529]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-17.14.26:580][529]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-17.14.26:580][529]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-17.14.26:581][529]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=91
+[2024.04.07-17.14.26:581][529]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=91
+[2024.04.07-17.14.26:583][529]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=91
+[2024.04.07-17.14.26:583][529]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=91
+[2024.04.07-17.14.26:583][529]LogInit: FAudioDevice initialized with ID 91.
+[2024.04.07-17.14.26:583][529]LogAudio: Display: Audio Device (ID: 91) registered with world 'ThirdPersonMap'.
+[2024.04.07-17.14.26:583][529]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 91
+[2024.04.07-17.14.26:586][529]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.07-17.14.26:587][529]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.07-20.14.26
+[2024.04.07-17.14.26:587][529]LogWorld: Bringing up level for play took: 0.001346
+[2024.04.07-17.14.26:589][529]LogOnline: OSS: Created online subsystem instance for: :Context_118
+[2024.04.07-17.14.26:592][529]PIE: Server logged in
+[2024.04.07-17.14.26:593][529]PIE: Play in editor total start time 0,049 seconds.
+[2024.04.07-17.14.27:945][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-17.14.27:945][677]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.07-17.14.27:945][677]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-17.14.27:945][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-17.14.27:945][677]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.07-17.14.27:948][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-17.14.27:952][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-17.14.27:965][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-17.14.27:965][677]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 91
+[2024.04.07-17.14.27:965][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2024.04.07-17.14.27:966][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2024.04.07-17.14.27:972][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.04.07-17.14.28:031][678]LogPlayLevel: Display: Destroying online subsystem :Context_118
