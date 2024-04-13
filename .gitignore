@@ -70,8 +70,6 @@ Saved/*
 Intermediate/*
 Plugins/*/Intermediate/*
 
-# Cache files for the editor to use
-DerivedDataCache/*
-CyberMafia/Saved/Logs/CyberMafia.log
-*.log
-*.log
+
+Saved/
+Build/
