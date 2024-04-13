@@ -70,6 +70,10 @@ Saved/*
 Intermediate/*
 Plugins/*/Intermediate/*
 
+/CyberMafia/Saved/Logs/
+/CyberMafia/Saved/
+/CyberMafia/Build/
+/CyberMafia/Saved/Logs
+/CyberMafia/Saved
+/CyberMafia/Saved/Autosaves
 *.log
-Saved/
-Build/
